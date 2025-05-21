@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">RecipeBook</string>
+    <string name="splash_image_desc">Splash screen background image</string>
+    <string name="recipe_image">Recipe image</string>
+
+    <!-- How It Works Dialog -->
+    <string name="how_it_works_title">How It Works</string>
+    <string name="how_it_works_message">
+        <![CDATA[
+        • Browse recipes by category
+        • Save and view favorites
+        • Change your profile picture
+        • All data stays on your device
+        ]]>
+    </string>
+    <string name="close_button">Got it!</string>
+
+    <!-- Profile Fragment Strings -->
+    <string name="upload_new_picture">Upload New Picture</string>
+    <string name="delete_picture">Delete Picture</string>
+    <string name="save_changes">Save Changes</string>
+
+    <!-- Profile fields -->
+    <string name="hint_name">Name</string>
+    <string name="hint_surname">Surname</string>
+    <string name="hint_email">Email</string>
+    <string name="phone_number_label">Phone Number: %1$s</string>
+
+    <!-- Push notifications -->
+    <string name="push_notifications">Push Notifications</string>
+
+    <!-- Validation -->
+    <string name="error_name_email_empty">Name and Email cannot be empty</string>
+    <string name="profile_updated">Profile updated</string>
+</resources>

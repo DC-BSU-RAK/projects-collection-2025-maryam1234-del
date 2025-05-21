@@ -1,0 +1,14 @@
+<resources>
+    <!-- App main theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+
+    <!-- Custom alert dialog theme -->
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>

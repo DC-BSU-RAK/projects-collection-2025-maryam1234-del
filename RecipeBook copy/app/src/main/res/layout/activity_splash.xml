@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#891D1D">
+
+    <!-- Fullscreen background image -->
+
+    <ImageView
+        android:id="@+id/splashImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A64545"
+        android:contentDescription="@string/splash_image_desc"
+        android:scaleType="centerCrop"
+        android:src="@drawable/food" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="103dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/almendra_sc"
+        android:text="Welcome to RecipeBook!!"
+        android:textColor="#E6DFDF"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
+</FrameLayout>
