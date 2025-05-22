@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="@drawable/popup_background"
+    android:clipToOutline="true"
+    android:gravity="center">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSTRUCTIONS"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#1E88E5"
+        android:layout_marginBottom="20dp"
+        android:gravity="center" />
+
+    <!-- Instructions Content -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Click the 'START' button to get started.\n\n2. Then, pick a flower from the current selection.\n\n3. Next, pick a container for the flower!\n\n4. Check out the facts and other info!\n\n5. You can repeat the process by clicking on 'CREATE ANOTHER'.\n\n6. Confused? Click on the 'i' button for these same instructions."
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:background="#99000000"/> <!-- Semi-transparent background -->
+
+
+    <!-- Close Button -->
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close Popup"
+        android:backgroundTint="#FFAA54"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center" />
+</LinearLayout>
